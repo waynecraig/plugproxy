@@ -16,10 +16,6 @@ module.exports = {
 				test: /\.js$/,
                 exclude: /node_modules/,
                 loader: 'babel?presets[]=react,presets[]=es2015'
-			},
-			{
-				test: /\.sass$/,
-				loader: "style!css!sass?indentedSyntax"
 			}
         ]
     },
