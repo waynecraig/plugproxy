@@ -1,5 +1,6 @@
 require('es6-promise').polyfill();
 require('isomorphic-fetch');
+Object.assign = require('object-assign');
 
 Object.assign = require('object-assign');
 
